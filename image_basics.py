@@ -9,7 +9,7 @@ def load_image(img_path, is_label_img):
     # todo: if 'is_label_img' is True use argument outputPixelType=sitk.sitkUInt8,
     #  else use outputPixelType=sitk.sitkFloat32
     """
-    pixel_type = None  # todo: modify here
+    pixel_type = sitk.sitkFloat32
     img = None  # todo: modify here
 
     return img
